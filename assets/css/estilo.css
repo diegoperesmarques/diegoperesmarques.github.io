@@ -1,17 +1,9 @@
-@import url('principal.css');
-@import url('frontend.css');
-
 html, body {
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-.container {
-    display: grid;
-    height: 100vh;
-
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
+.caixa {
+    border: 1px solid black;
 }
