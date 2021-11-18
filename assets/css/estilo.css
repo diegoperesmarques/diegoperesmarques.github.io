@@ -1,3 +1,6 @@
+@import url('principal.css');
+@import url('frontend.css');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -11,95 +14,4 @@ html, body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 
-}
-
-#apresentacao {
-    grid-column-start: 1;
-    grid-column-end: 5;
-
-    grid-row-start: 1;
-    grid-row-end: 1;
-
-    background-color: #F2F5F4;
-}
-
-
-#frontend {
-    grid-column-start: 1;
-    grid-column-end: 3;
-
-    grid-row-start: 2;
-    grid-row-end: 3;
-
-    line-height: 50vh;
-
-    background-color: #D8D7CC;
-}
-
-#frontend:hover {
-    background-color: #F2F5F4;  
-}
-
-#frontend a {
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 150%;
-    font-weight: bolder;
-    color: #333333;
-    text-decoration: none;
-}
-
-#frontend a:hover {
-    color: #333333;
-}
-
-#backend {
-    grid-column-start: 3;
-    grid-column-end: 5;
-
-    grid-row-start: 2;
-    grid-row-end: 3;
-    line-height: 50vh;
-
-    background-color: #675A56;
-}
-
-#backend:hover {
-    background-color: #F2F5F4;  
-}
-
-#backend a {
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 150%;
-    font-weight: bolder;
-    color: #F2F5F4;
-    text-decoration: none;
-}
-
-#backend a:hover {
-    color: #333333;
-}
-
-
-hr {
-    width: 60%;
-}
-
-/* Formatações do texto */
-
-#apresentacao h3 {
-    margin-bottom: 2px;
-}
-
-#apresentacao h4 {
-    margin-top: 2px;
-}
-
-#apresentacao .descricao {
-    font-size: 90%;
-}
-
-#apresentacao .texto {
-    font-size: 80%;
 }
