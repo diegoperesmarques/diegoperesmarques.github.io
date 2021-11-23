@@ -4,7 +4,6 @@
 
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
 }
 
 #titulo {
@@ -23,8 +22,6 @@
     font-size: 200%;
     font-weight: bolder;
     color: #F2F5F4;
-
-
 }
 
 #projetos {
@@ -35,6 +32,11 @@
     grid-row-end: 9;
 
     overflow: auto;
+}
+
+.containerProjetos {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .projeto {
