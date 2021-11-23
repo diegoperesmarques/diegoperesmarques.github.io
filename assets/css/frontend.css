@@ -16,9 +16,14 @@
 
     padding-top: 2vh;
 
+    background-color: #675A56;
+
+    /* formatações texto */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 200%;
     font-weight: bolder;
+    color: #F2F5F4;
+
 
 }
 
@@ -30,6 +35,9 @@
     grid-row-end: 9;
 }
 
+.projeto {
+    height: 150px;
+}
 
 #rodape {
     grid-column-start: 1;
@@ -39,4 +47,7 @@
     grid-row-end: 9;
 
     text-align: center;
+
+    background-color: black;
+    color: #F2F5F4;
 }
