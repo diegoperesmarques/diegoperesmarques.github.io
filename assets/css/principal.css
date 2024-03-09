@@ -91,9 +91,9 @@ hr {
 }
 
 #apresentacao .descricao {
-    font-size: 90%;
+    font-size: 1em;
 }
 
 #apresentacao .texto {
-    font-size: 80%;
+    font-size: 1em;
 }
