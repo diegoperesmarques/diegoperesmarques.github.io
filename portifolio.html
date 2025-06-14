@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Desenvolvedor Full Stack</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Dev<span class="text-info">Portfolio</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#frontend">Frontend</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+
+                    <!--
+                    <li class="nav-item">
+                        <a class="nav-link" href="#backend">Backend</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                    -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="home">
+        <div class="container header-content text-center">
+            <!--  <img src="/api/placeholder/400/400" alt="Foto de Perfil" class="profile-img mb-4"> -->
+            <h1 class="display-4 fw-bold mb-3">Diego Peres Marques</h1>
+            <h2 class="h4 mb-4">Desenvolvedor Full Stack</h2>
+            <p class="lead mb-5">Especialista em criar soluções web modernas e escaláveis</p>
+            <div>
+                <a href="#frontend" class="btn btn-custom me-3">Ver Projetos</a>
+                <!-- <a href="#contact" class="btn btn-outline-light">Contato</a> -->
+            </div>
+        </div>
+    </header>
+
+
+    <section id="frontend" class="frontend-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <i class="fas fa-laptop-code section-icon"></i>
+                <h2 class="section-title text-center">Projetos Frontend</h2>
+                <p class="lead">Interfaces modernas com foco em experiência do usuário</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card card h-100">
+                        <span class="category-badge badge-frontend">Frontend</span>
+                        <img src="https://i.ibb.co/ZhRMXPm/05.png" class="card-img-top" alt="Projeto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Template de Dashboard</h5>
+                            <p class="card-text">Template para uma página de administração de sistemas.</p>
+                            <div class="mb-3">
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">Bootstrap</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="https://diegoperesmarques.github.io/projetos-front/dashboardBootstrap/index.html" class="card-link" target="_blank">Ver Demo</a>
+                                <a href="https://github.com/diegoperesmarques/projetos-front/tree/main/dashboardBootstrap" class="card-link" target="_blank">Código <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card card h-100">
+                        <span class="category-badge badge-frontend">Frontend</span>
+                        <img src="assets/img/projeto02.jpg" class="card-img-top" alt="Projeto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Landing Page</h5>
+                            <p class="card-text">Landing Page simples.</p>
+                            <div class="mb-3">
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">Bootstrap</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="https://diegoperesmarques.github.io/simple-landing-page/" class="card-link" target="_blank">Ver Demo</a>
+                                <a href="https://github.com/diegoperesmarques/simple-landing-page" class="card-link" target="_blank">Código <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card card h-100">
+                        <span class="category-badge badge-frontend">Frontend</span>
+                        <img src="assets/img/todoist.jpg" class="card-img-top" alt="Projeto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Todoist</h5>
+                            <p class="card-text">Todoist simples.</p>
+                            <div class="mb-3">
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">Bootstrap</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="https://diegoperesmarques.github.io/projetos-front/todoist-simple/index.html" class="card-link" target="_blank">Ver Demo</a>
+                                <a href="https://github.com/diegoperesmarques/projetos-front/tree/main/todoist-simple" class="card-link" target="_blank">Código <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--
+    <section class="divider">
+        <div class="container divider-content text-center">
+            <h2 class="display-5 mb-4">Transformando ideias em código</h2>
+            <p class="lead">Especializado em criar aplicações web de alta performance, do frontend ao backend</p>
+        </div>
+    </section>
+
+
+    <section id="backend" class="backend-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <i class="fas fa-server section-icon"></i>
+                <h2 class="section-title text-center">Projetos Backend</h2>
+                <p class="lead">Soluções robustas, escaláveis e seguras</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card card h-100">
+                        <span class="category-badge badge-backend">Backend</span>
+                        <img src="/api/placeholder/600/400" class="card-img-top" alt="Projeto Backend 1">
+                        <div class="card-body">
+                            <h5 class="card-title">API RESTful</h5>
+                            <p class="card-text">API completa para gerenciamento de usuários com autenticação JWT, permissões e documentação Swagger.</p>
+                            <div class="mb-3">
+                                <span class="tech-badge">Node.js</span>
+                                <span class="tech-badge">Express</span>
+                                <span class="tech-badge">MongoDB</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="card-link">Documentação</a>
+                                <a href="#" class="card-link">Código <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card card h-100">
+                        <span class="category-badge badge-backend">Backend</span>
+                        <img src="/api/placeholder/600/400" class="card-img-top" alt="Projeto Backend 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Microserviços</h5>
+                            <p class="card-text">Arquitetura de microserviços para processamento de pagamentos com balanceamento de carga e monitoramento.</p>
+                            <div class="mb-3">
+                                <span class="tech-badge">Java</span>
+                                <span class="tech-badge">Spring Boot</span>
+                                <span class="tech-badge">Docker</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="card-link">Diagrama</a>
+                                <a href="#" class="card-link">Código <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card card h-100">
+                        <span class="category-badge badge-backend">Backend</span>
+                        <img src="/api/placeholder/600/400" class="card-img-top" alt="Projeto Backend 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Sistema de Gestão</h5>
+                            <p class="card-text">Backend para sistema ERP com relatórios em tempo real, gestão de estoque e integração com APIs externas.</p>
+                            <div class="mb-3">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Django</span>
+                                <span class="tech-badge">PostgreSQL</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="card-link">Detalhes</a>
+                                <a href="#" class="card-link">Código <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    -->
+
+    <!-- Skills Section -->
+    <section id="habilidades" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Habilidades Técnicas</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">JavaScript</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">jQuery</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">React</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 30%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">Bootstrap</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">HTML/CSS/SASS</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">PHP</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">Python</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 65%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">SQL/NoSQL</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">SQL Server</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">PostgreSQL</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">MongoDB</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">DevOps/Linux/Azure/CICD/Docker</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Entre em Contato</h2>
+            <div class="row">
+                
+                <!--
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="name" placeholder="Seu nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="seu@email.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Sua mensagem..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-custom">Enviar Mensagem</button>
+                    </form>
+                </div>
+                -->
+
+                <div class="col-12">
+                    <div class="card bg-white shadow h-100">
+                        <div class="card-body">
+                            <h3 class="mb-4">Informações de Contato</h3>
+                            <div class="mb-4">
+                                <p class="mb-1"><i class="fas fa-envelope me-2 text-secondary"></i> diegoperesmarques@gmail.com</p>
+                                <!-- <p class="mb-1"><i class="fas fa-phone me-2 text-secondary"></i> +55 (11) 99999-9999</p> -->
+                                <p><i class="fas fa-map-marker-alt me-2 text-secondary"></i> Rio de Janeiro, Brasil</p>
+                            </div>
+                            <h5 class="mb-3">Siga-me nas redes sociais</h5>
+                            <div>
+                                <a href="https://github.com/diegoperesmarques" class="me-3 social-icons" target="_blank"><i class="fab fa-github"></i>Github</a>
+                                <a href="https://br.linkedin.com/in/diegoperesmarques" class="me-3 social-icons" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                                <!--  <a href="#" class="me-3 social-icons"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-icons"><i class="fab fa-dev"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <h3 class="mb-4">Dev<span class="text-info">Portfolio</span></h3>
+            <p class="mb-4">Desenvolvido com ❤️ e muito café</p>
+            <p>&copy; 2025 Diego Peres Marques. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
